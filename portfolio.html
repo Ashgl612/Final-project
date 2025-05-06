@@ -1,0 +1,77 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- naviation bar is the same as main page-->
+<header class="navbar">
+    <video src="assets/Mahshad Music.mp4" alt="Logo" class="logo" autoplay muted loop playsinline ></video>
+    <nav class="links">
+      <a href="merch.html">Merch</a>
+      <a href="work.html">Portfolio</a>
+      <a href="collab.html">Book me</a>
+    </nav>
+  </header>
+
+  <section class="portfolio">
+    <section class="theater">
+      <h2>Theater</h2>
+      <div class="video-container">
+        <h3>Watch My Show Live</h3>
+        <!-- Embed YouTube Live Stream -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p><a href="https://www.youtube.com/channel/YOUR_CHANNEL_ID" target="_blank">Watch on YouTube</a></p>
+      </div>
+
+      <div class="performance-links">
+        <h3>Other Performances</h3>
+        <ul>
+          <li><a href="https://vimeo.com/YOUR_VIMEO_LINK" target="_blank">A Little Mischief (Vimeo)</a></li>
+          <li><a href="https://instagram.com/YOUR_INSTAGRAM_LIVE" target="_blank">Song Cycle (Instagram Live)</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="composition">
+      <h2>Composition</h2>
+      <div class="audio-container">
+        <!-- Audio Video with Hover to Play -->
+        <h3>Hover to Play Composition</h3>
+        <video width="320" height="240" controls preload="none" class="hover-audio">
+          <source src="composition_video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="audio-files">
+        <h3>Audio Files</h3>
+        <ul>
+          <li><audio controls><source src="composition_audio.mp3" type="audio/mp3">Your browser does not support the audio element.</audio></li>
+          <li><a href="composition_score.pdf" target="_blank">Download Composition Score (PDF)</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="sound-design">
+        <h2>Sound Design</h2>
+        <div class="video-container">
+          <h3>Watch My Sound Design Work</h3>
+          <!-- Embed Sound Design Video -->
+          <video width="560" height="315" controls>
+            <source src="sound_design_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+    </section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
